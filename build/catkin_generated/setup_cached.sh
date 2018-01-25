@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/liamm/nav-stack/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/liamm/nav-stack/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/liamm/nav-stack/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/liamm/nav-stack/build"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/liamm/nav-stack/devel/share/common-lisp"
 export ROS_PACKAGE_PATH="/home/liamm/nav-stack/src:$ROS_PACKAGE_PATH"

@@ -205,6 +205,11 @@ target_link_libraries(turtle_tf2_broadcaster
  ${catkin_LIBRARIES}
 )
 
+add_executable(turtle_tf2_listener src/turtle_tf2_listener.cpp)
+target_link_libraries(turtle_tf2_listener
+ ${catkin_LIBRARIES}
+)
+
 ## Mark other files for installation (e.g. launch and bag files, etc.)
 install(FILES
  start_demo.launch

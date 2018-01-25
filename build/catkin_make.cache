@@ -1,2 +1,0 @@
-learning_tf2
--DCATKIN_DEVEL_PREFIX=/home/liamm/nav-stack/devel -DCMAKE_INSTALL_PREFIX=/home/liamm/nav-stack/install -G Unix Makefiles

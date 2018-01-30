@@ -1,0 +1,2 @@
+mecanum_2dnav
+-DCATKIN_DEVEL_PREFIX=/home/liamm/nav-stack/pithy/devel -DCMAKE_INSTALL_PREFIX=/home/liamm/nav-stack/pithy/install -G Unix Makefiles
